@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11BF2D12A9573E7007BF341 /* CalmSpaceFinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2D02A9573E7007BF341 /* CalmSpaceFinalApp.swift */; };
+		F11BF2D52A9573E8007BF341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11BF2D42A9573E8007BF341 /* Assets.xcassets */; };
+		F11BF2D82A9573E8007BF341 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11BF2D72A9573E8007BF341 /* Preview Assets.xcassets */; };
+		F11BF2DF2A9573F9007BF341 /* Tela6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2DE2A9573F9007BF341 /* Tela6.swift */; };
+		F11BF2E22A957487007BF341 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = F11BF2E12A957487007BF341 /* YouTubePlayerKit */; };
+		F11BF2E42A9574C3007BF341 /* ViewModelVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2E32A9574C3007BF341 /* ViewModelVideo.swift */; };
+		F11BF2E62A9574D4007BF341 /* ModelVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2E52A9574D4007BF341 /* ModelVideo.swift */; };
+		F11BF2EA2A9575E1007BF341 /* Tela8.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2E92A9575E1007BF341 /* Tela8.swift */; };
+		F11BF2EC2A9579E2007BF341 /* Tela1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2EB2A9579E2007BF341 /* Tela1.swift */; };
+		F11BF2EE2A957AD3007BF341 /* Tela2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2ED2A957AD3007BF341 /* Tela2.swift */; };
+		F11BF2F02A957AE1007BF341 /* Tela3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2EF2A957AE1007BF341 /* Tela3.swift */; };
+		F11BF2F22A957AEB007BF341 /* Tela4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2F12A957AEB007BF341 /* Tela4.swift */; };
+		F11BF2F42A957AFB007BF341 /* Tela7.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2F32A957AFB007BF341 /* Tela7.swift */; };
+		F11BF2F62A957B0D007BF341 /* Tela5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BF2F52A957B0D007BF341 /* Tela5.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F11BF2CD2A9573E7007BF341 /* CalmSpaceFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalmSpaceFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11BF2D02A9573E7007BF341 /* CalmSpaceFinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmSpaceFinalApp.swift; sourceTree = "<group>"; };
+		F11BF2D42A9573E8007BF341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F11BF2D72A9573E8007BF341 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F11BF2DE2A9573F9007BF341 /* Tela6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela6.swift; sourceTree = "<group>"; };
+		F11BF2E32A9574C3007BF341 /* ViewModelVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelVideo.swift; sourceTree = "<group>"; };
+		F11BF2E52A9574D4007BF341 /* ModelVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelVideo.swift; sourceTree = "<group>"; };
+		F11BF2E92A9575E1007BF341 /* Tela8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela8.swift; sourceTree = "<group>"; };
+		F11BF2EB2A9579E2007BF341 /* Tela1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela1.swift; sourceTree = "<group>"; };
+		F11BF2ED2A957AD3007BF341 /* Tela2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela2.swift; sourceTree = "<group>"; };
+		F11BF2EF2A957AE1007BF341 /* Tela3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela3.swift; sourceTree = "<group>"; };
+		F11BF2F12A957AEB007BF341 /* Tela4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela4.swift; sourceTree = "<group>"; };
+		F11BF2F32A957AFB007BF341 /* Tela7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela7.swift; sourceTree = "<group>"; };
+		F11BF2F52A957B0D007BF341 /* Tela5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela5.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11BF2CA2A9573E7007BF341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11BF2E22A957487007BF341 /* YouTubePlayerKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11BF2C42A9573E7007BF341 = {
+			isa = PBXGroup;
+			children = (
+				F11BF2CF2A9573E7007BF341 /* CalmSpaceFinal */,
+				F11BF2CE2A9573E7007BF341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11BF2CE2A9573E7007BF341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11BF2CD2A9573E7007BF341 /* CalmSpaceFinal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11BF2CF2A9573E7007BF341 /* CalmSpaceFinal */ = {
+			isa = PBXGroup;
+			children = (
+				F11BF2D02A9573E7007BF341 /* CalmSpaceFinalApp.swift */,
+				F11BF2EB2A9579E2007BF341 /* Tela1.swift */,
+				F11BF2ED2A957AD3007BF341 /* Tela2.swift */,
+				F11BF2EF2A957AE1007BF341 /* Tela3.swift */,
+				F11BF2F12A957AEB007BF341 /* Tela4.swift */,
+				F11BF2F52A957B0D007BF341 /* Tela5.swift */,
+				F11BF2DE2A9573F9007BF341 /* Tela6.swift */,
+				F11BF2F32A957AFB007BF341 /* Tela7.swift */,
+				F11BF2E92A9575E1007BF341 /* Tela8.swift */,
+				F11BF2E52A9574D4007BF341 /* ModelVideo.swift */,
+				F11BF2E32A9574C3007BF341 /* ViewModelVideo.swift */,
+				F11BF2D42A9573E8007BF341 /* Assets.xcassets */,
+				F11BF2D62A9573E8007BF341 /* Preview Content */,
+			);
+			path = CalmSpaceFinal;
+			sourceTree = "<group>";
+		};
+		F11BF2D62A9573E8007BF341 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F11BF2D72A9573E8007BF341 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11BF2CC2A9573E7007BF341 /* CalmSpaceFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11BF2DB2A9573E8007BF341 /* Build configuration list for PBXNativeTarget "CalmSpaceFinal" */;
+			buildPhases = (
+				F11BF2C92A9573E7007BF341 /* Sources */,
+				F11BF2CA2A9573E7007BF341 /* Frameworks */,
+				F11BF2CB2A9573E7007BF341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalmSpaceFinal;
+			packageProductDependencies = (
+				F11BF2E12A957487007BF341 /* YouTubePlayerKit */,
+			);
+			productName = CalmSpaceFinal;
+			productReference = F11BF2CD2A9573E7007BF341 /* CalmSpaceFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11BF2C52A9573E7007BF341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F11BF2CC2A9573E7007BF341 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F11BF2C82A9573E7007BF341 /* Build configuration list for PBXProject "CalmSpaceFinal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F11BF2C42A9573E7007BF341;
+			packageReferences = (
+				F11BF2E02A957487007BF341 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
+			productRefGroup = F11BF2CE2A9573E7007BF341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11BF2CC2A9573E7007BF341 /* CalmSpaceFinal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11BF2CB2A9573E7007BF341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11BF2D82A9573E8007BF341 /* Preview Assets.xcassets in Resources */,
+				F11BF2D52A9573E8007BF341 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11BF2C92A9573E7007BF341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11BF2DF2A9573F9007BF341 /* Tela6.swift in Sources */,
+				F11BF2F22A957AEB007BF341 /* Tela4.swift in Sources */,
+				F11BF2EC2A9579E2007BF341 /* Tela1.swift in Sources */,
+				F11BF2EE2A957AD3007BF341 /* Tela2.swift in Sources */,
+				F11BF2EA2A9575E1007BF341 /* Tela8.swift in Sources */,
+				F11BF2F62A957B0D007BF341 /* Tela5.swift in Sources */,
+				F11BF2F42A957AFB007BF341 /* Tela7.swift in Sources */,
+				F11BF2E42A9574C3007BF341 /* ViewModelVideo.swift in Sources */,
+				F11BF2D12A9573E7007BF341 /* CalmSpaceFinalApp.swift in Sources */,
+				F11BF2E62A9574D4007BF341 /* ModelVideo.swift in Sources */,
+				F11BF2F02A957AE1007BF341 /* Tela3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F11BF2D92A9573E8007BF341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F11BF2DA2A9573E8007BF341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11BF2DC2A9573E8007BF341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmSpaceFinal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Peres.CalmSpaceFinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F11BF2DD2A9573E8007BF341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmSpaceFinal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Peres.CalmSpaceFinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11BF2C82A9573E7007BF341 /* Build configuration list for PBXProject "CalmSpaceFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11BF2D92A9573E8007BF341 /* Debug */,
+				F11BF2DA2A9573E8007BF341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11BF2DB2A9573E8007BF341 /* Build configuration list for PBXNativeTarget "CalmSpaceFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11BF2DC2A9573E8007BF341 /* Debug */,
+				F11BF2DD2A9573E8007BF341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F11BF2E02A957487007BF341 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F11BF2E12A957487007BF341 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F11BF2E02A957487007BF341 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F11BF2C52A9573E7007BF341 /* Project object */;
+}
